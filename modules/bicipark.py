@@ -14,7 +14,7 @@ bicipark_df['latitude'] = bicipark_df.apply(lambda row: row[
 
 bicipark_clean = bicipark_df[['stationId','stationName','address','longitude','latitude']][:10]
 
-
+ 
 
 #CONECTAMOS CON LA WEB PARA OBTENER JSON
 base_url = "https://datos.madrid.es/egob"

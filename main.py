@@ -34,6 +34,26 @@ def argument_parser():
     return args
 
 
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description = "Bienvenido a la app de Bicimad")
+    parser.add_argument("-e", type=str, help='Introduce si quieres utilizar bicimad o bicipark')
+    args = parser.parse_args()
+
+    print(args.e)
+    print(type(args))
+
+
+    if args.e == 'bicimad':
+        bicimad(args.e)
+    elif args.e == 'bicipark':
+        bicipark(args.e)
+    else:
+        print('Ha introducido errores. Vuelva a comenzar.')
+
+
+
+
+'''
 # Pipeline execution
 
 if __name__ == '__main__':
@@ -48,3 +68,6 @@ if __name__ == '__main__':
     else:
         result = 'FATAL ERROR...you need to select the correct method'
     print(f'The result is => {result}')
+
+
+'''

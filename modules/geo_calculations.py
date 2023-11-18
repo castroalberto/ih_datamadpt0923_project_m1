@@ -3,6 +3,7 @@
 
 from shapely.geometry import Point
 import geopandas as gpd
+from geopy.distance import geodesic
 
 # Methods
 
