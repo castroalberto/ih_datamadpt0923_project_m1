@@ -83,7 +83,7 @@ def update_bicipark(update):
         templos_con_distancias.to_csv('./resultados/resultados_bicipark.csv', index=False)
         
         print('')
-        print('********** ARCHIVO BICIMAD ACTUALIZADO *********\n')
+        print('********** ARCHIVO BICIPARK ACTUALIZADO *********\n')
 
     else:
         pass

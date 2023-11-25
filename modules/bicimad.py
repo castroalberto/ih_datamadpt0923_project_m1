@@ -2,7 +2,6 @@ import pandas as pd
 import requests as re
 from geopy.distance import geodesic
 
-
 def update_bicimad(update):
 
     if update == 'Bicimad':
