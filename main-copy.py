@@ -11,7 +11,6 @@
 import pandas as pd
 import argparse
 
-from modules.bicimad import saludo
 
 
 def elegir(categoria, sitio):
@@ -63,7 +62,7 @@ if __name__ == '__main__':
     parser.add_argument('-e', help = 'Selecciona Bicimad Bicipark', type=str)
     parser.add_argument('-s', help= 'Sitio de interes', type=str)
 
-    saludo()
-
     args = parser.parse_args()
+
+    resumen(args.t)
     elegir(args.e, args.s)
