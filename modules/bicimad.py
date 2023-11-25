@@ -24,7 +24,6 @@ def update_bicimad(update):
         base_url = "https://datos.madrid.es/egob"
         body = "/catalogo/209434-0-templos-otros.json"
         response = re.get(base_url + body)
-        print(response)
 
         #LEEMOS LOS TEMPLOS DEL JSON
         content = response.content
@@ -51,6 +50,7 @@ def update_bicimad(update):
         #CREACION DE UN DATAFRAME CON LA DISTANCIAS MINIMAS DE CADA TEMPLO A NUESTRO BICIMAD o PARK
 
         # Agregar nuevas columnas a templos_clean para almacenar datos de la fila en bicimad_clean
+        templos_clean = templos_clean.copy()
         templos_clean['distancia'] = float('inf')
         templos_clean['name_bicimad'] = ""
         templos_clean['address_bicimad'] = ""

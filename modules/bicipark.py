@@ -48,6 +48,7 @@ def update_bicipark(update):
         #CREACION DE UN DATAFRAME CON LA DISTANCIAS MINIMAS DE CADA TEMPLO A NUESTRO bicipark o PARK
 
         # Agregar nuevas columnas a templos_clean para almacenar datos de la fila en bicipark_clean
+        templos_clean = templos_clean.copy()
         templos_clean['distancia'] = float('inf')
         templos_clean['name_bicipark'] = ""
         templos_clean['address_bicipark'] = ""
