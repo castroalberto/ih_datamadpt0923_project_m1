@@ -36,7 +36,7 @@ If inputed by the user, the programm must show the nearest Bicipark and Bicimad 
 - Language: pyhon3
 - Tools: Jupyter Notebook and Visual Studio Code
 
-**Your project must meet the following requirements:**
+**Fulfilled Requirements:**
 
 - It must be contained in a GitHub repository which includes a README file that explains the aim and content of your code. You may follow the structure suggested [here](https://github.com/potacho/data-project-template).
 
