@@ -25,16 +25,6 @@ bicimad_stations.csv
 - body = "/catalogo/209434-0-templos-otros.json"
 - response = re.get(base_url + body)
 
-
-1. Stored BBDD Bicimad, Bicipark Stations
-
-two given CSV stored in ./data bicimad_statios.csv and bicipark_stations.csv
-
-2. API - TEMPLES DATA 
-base_url = "https://datos.madrid.es/egob"
-body = "/catalogo/209434-0-templos-otros.json"
-response = re.get(base_url + body)
-
 ## **Technology stack:**
 
 - pandas as pd
