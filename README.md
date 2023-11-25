@@ -47,9 +47,9 @@ If inputed by the user, the programm must show the nearest Bicipark and Bicimad 
     │   └──  bicimad.py
     |   └──  bicipark.py
     ├── notebooks
-    │   ├── ipynb_checkpoints
-    │   └── bicimad.ipynb 
-    |   └── dev_notebook_ipynb
+    │   ├── dev_notebook_bicimad.ipynb
+    │   └── dev_notebook_bicimad.ipynb
+    |   └── notebook_argparse.ipynb
     ├── resultados
     │   ├── resultados_bicimad.csv
     |   ├── resultados_bicimad.csv
