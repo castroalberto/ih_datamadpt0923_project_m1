@@ -61,7 +61,6 @@ def elegir(categoria, sitio):
 # Argument parser function
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description= "Bienvenido a la app de Bicimad" )
-
     parser.add_argument('-e', help = 'Selecciona Bicimad Bicipark para conocer el listado de estaciones más cercanas a cada punto de interes', type=str)
     parser.add_argument('-s', help= 'Añada su lugar de interes para conocer la el Bicimad o Bipark mas cercano a este punto' , type=str)
     parser.add_argument('-u', help= 'Seleccione Bicimad o Bicipark para actualizar la base de datos' , type=str)

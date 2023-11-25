@@ -36,6 +36,29 @@ If inputed by the user, the programm must show the nearest Bicipark and Bicimad 
 - Language: pyhon3
 - Tools: Jupyter Notebook and Visual Studio Code
 
+## **Folder Structure**
+
+└── __h_datamadpt0923_project_m1__
+
+    ├──  data
+    │   ├── bicimad_stations.csv
+    │   └── bicipark_stations.csv
+    ├── modules
+    │   └──  bicimad.py
+    |   └──  bicipark.py
+    ├── notebooks
+    │   ├── ipynb_checkpoints
+    │   └── bicimad.ipynb 
+    |   └── dev_notebook_ipynb
+    ├── resultados
+    │   ├── resultados_bicimad.csv
+    |   ├── resultados_bicimad.csv
+    ├── .gitignore
+    ├── LICENSE
+    ├── main.py
+    ├── README
+    ├── __trash__
+
 **Fulfilled Requirements:**
 
 - It must be contained in a GitHub repository which includes a README file that explains the aim and content of your code. You may follow the structure suggested [here](https://github.com/potacho/data-project-template).
