@@ -16,8 +16,8 @@ If inputed by the user, the programm must show the nearest Bicipark and Bicimad 
 
 - **CSV Files.** The datasets contains information from the BiciMAD stations including their location (i.e.: latitude / longitude). You may find the `.csv` files in the __data__ folder.
 
-bicipark_stations.csv
-bicimad_stations.csv
+- bicipark_stations.csv
+- bicimad_stations.csv
 
 - **API REST.** We will use the API REST from the [Portal de datos abiertos del Ayuntamiento de Madrid](https://datos.madrid.es/nuevoMadrid/swagger-ui-master-2.2.10/dist/index.html?url=/egobfiles/api.datos.madrid.es.json#/), where you can find the data:
 
