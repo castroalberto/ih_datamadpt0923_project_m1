@@ -51,8 +51,8 @@ def elegir(categoria, sitio):
             print(f'El Bicipark más cercano es: {bicipark_df[bicipark_df["title"]==sitio]["name_bicipark"].iloc[0]}')
             print(f'En esta distancia: {bicipark_df[bicipark_df["title"]==sitio]["distancia"].iloc[0]} metros\n')
         
-    else:
-        print('Ha introducido errores. Vuelva a comenzar.')
+    #else:
+        #print('Ha introducido errores. Vuelva a comenzar.')
 
 
 

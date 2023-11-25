@@ -21,9 +21,9 @@ bicimad_stations.csv
 
 - **API REST.** We will use the API REST from the [Portal de datos abiertos del Ayuntamiento de Madrid](https://datos.madrid.es/nuevoMadrid/swagger-ui-master-2.2.10/dist/index.html?url=/egobfiles/api.datos.madrid.es.json#/), where you can find the data:
 
-base_url = "https://datos.madrid.es/egob"
-body = "/catalogo/209434-0-templos-otros.json"
-response = re.get(base_url + body)
+- base_url = "https://datos.madrid.es/egob"
+- body = "/catalogo/209434-0-templos-otros.json"
+- response = re.get(base_url + body)
 
 
 1. Stored BBDD Bicimad, Bicipark Stations
@@ -37,18 +37,14 @@ response = re.get(base_url + body)
 
 ## **Technology stack:**
 
-Languaje: Python
+- pandas as pd
+- Requests
+- json
+- argpars
+- geopy
 
-Tools: Jupyter Notebook and Visual Studio Code
-
-Imports: 
-
-import pandas as pd
-import requests
-import json
-import re
-import argpars
-from geopy.distance import geodesic
+- Language: pyhon3
+- Tools: Jupyter Notebook and Visual Studio Code
 
 **Your project must meet the following requirements:**
 
